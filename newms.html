@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Status </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="topbar">
+           <div class="logo_icon">
+             <img src="c1logo.png" alt="Error">
+           </div>
+           <p class="store_name"> Status </p>
+           <div class="topbar_navigation">
+             <ul>
+               <li> <p id="cart"> Cart </p></li>
+               <li> <img src="cart.png" alt="Error"> </li>
+               <li> <a href="#"> Login & Signup </a> </li>
+             </ul>
+           </div>
+      </div>
+
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Men's wear <i class="fa fa-chevron-down"></i></button>
+          <div class="dropdown-content">
+          <a href="men's_wear_one.html">T-shirts & Jeans</a>
+          <a href="men's_wear_two.html">Suits</a>
+          <a href="men's_wear_three.html">Shirts & Pants</a>
+          <a href="men's_wear_four.html">Kurtas</a>
+         </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Women's Wear <i class="fa fa-chevron-down"></i></button>
+          <div class="dropdown-content">
+          <a href="women's_wear_one.html">Ethnic wear</a>
+          <a href="women's_wear_two.html">Suits</a>
+          <a href="women's_wear_three.html">Kurtis & Salwars</a>
+          <a href="women's_wear_four.html">Dupattas</a>
+          <a href="women's_wear_five.html">T-shirts & Jeans</a>
+         </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Kid's Wear <i class="fa fa-chevron-down"></i></button>
+          <div class="dropdown-content">
+          <a href="kid's_wear_one.html">Polos and T-shirts</a>
+          <a href="kid's_wear_two.html">Dresses & Skirts</a>
+          <a href="kid's_wear_three.html">Jeans</a>
+         </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Watches <i class="fa fa-chevron-down"> </i> </button>
+          <div class="dropdown-content">
+          <a href="watches_one.html">Men's watches</a>
+          <a href="watches_two.html">Women's watches</a>
+          <a href="watches_three.html">Kid's watches</a>
+         </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Shoes <i class="fa fa-chevron-down"></i> </button>
+          <div class="dropdown-content">
+          <a href="shoes_one.html">Sports Shoes</a>
+          <a href="shoes_two.html">Casual Shoes</a>
+          <a href="shoes_three.html">Formal Shoes</a>
+         </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Men's Accesories <i class="fa fa-chevron-down"> </i> </button>
+          <div class="dropdown-content">
+          <a href="maccessories_one.html">Wallets</a>
+          <a href="maccessories_two.html">Belts</a>
+          <a href="maccessories_three.html">Cufflinks</a>
+          <a href="maccessories_four.html">Ties & Tiepins</a>
+         </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Women's Accesories <i class="fa fa-chevron-down"> </i> </button>
+          <div class="dropdown-content">
+          <a href="waccessories_one.html">Purses, Wallets & Handbags</a>
+          <a href="waccessories_two.html">Hats and Scarfs</a>
+          <a href="waccessories_three.html">Belts</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Men's innerwear <i class="fa fa-chevron-down"> </i> </button>
+          <div class="dropdown-content">
+          <a href="minner_one.html">Briefs & Boxers</a>
+          <a href="minner_two.html">Vests</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Women's innerwear <i class="fa fa-chevron-down"> </i> </button>
+          <div class="dropdown-content">
+          <a href="winner_one.html">Bras & Panties</a>
+          <a href="winner_two.html">Lingerie</a>
+          </div>
+        </div>
+     </div>
+
+     <div class="container">
+
+       <input type="radio" name="images" id="i1" checked >
+       <input type="radio" name="images" id="i2">
+       <input type="radio" name="images" id="i3">
+
+       <div class="slide_image" id="one">
+         <img src="shirts.jpg" alt="Error">
+
+              <label for="i3" class="pre"><p class="left"><i class="fa fa-chevron-left"> </i></p></label>
+              <label for="i2" class="nxt"><p class="right"><i class="fa fa-chevron-right"> </i></p></label>
+
+       </div>
+       <div class="slide_image" id="two">
+         <img src="wristwatch.jpg" alt="Error">
+
+           <label for="i1" class="pre"><p class="left"><i class="fa fa-chevron-left"> </i></p></label>
+           <label for="i3" class="nxt"><p class="right"><i class="fa fa-chevron-right"> </i></p></label>
+
+       </div>
+       <div class="slide_image" id="three">
+         <img src="wear.jpg" alt="Error">
+
+           <label for="i2" class="pre"><p class="left"><i class="fa fa-chevron-left"> </i></p></label>
+           <label for="i1" class="nxt"><p class="right"><i class="fa fa-chevron-right"> </i></p></label>
+
+       </div>
+       <div class="nav_dots">
+         <label class="dots" id="dot1" for="i1"></label>
+         <label class="dots" id="dot2" for="i2"></label>
+         <label class="dots" id="dot3" for="i3"></label>
+       </div>
+
+     </div>
+
+    <div class="product">
+   		<div class="product_container">
+   			<div class="product_section_title">NEW ARRIVALS AT STATUS</div>
+
+   			<div class="product_one">
+   				<div class="product_img">
+   					<img src="saree.jpg">
+   				</div>
+   				<div class="product_text">
+   					<a href="two_pnt_one_one.html"><h4>Silk Saree by L.M Fashions</h4></a>
+   				</div>
+   				<div class="star_rating">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="black_star.png">
+   				</div>
+   				<div class="product_desc">
+   					<b>Status verified</b>
+   				</div><br>
+   				<div class="product_price">
+   					<div class="price">
+              <div class="mpone" data-value="5999">
+   						Actual price: <del>₹7,999/-</del><br>
+              <strong>Discounted price:₹5,999/- </strong></div>
+   					</div><br><br><br><br>
+            <div class="adtc_button">
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART" data-value="5999">ADD TO CART</button>
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="product_two">
+   				<div class="product_img">
+   					<img src="ties.jpg">
+   				</div>
+   				<div class="product_text">
+   					<a href="six_pnt_four.html"><h4> Ties by JODO </h4></a>
+   				</div>
+   				<div class="star_rating">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="black_star.png">
+   				</div>
+   				<div class="product_desc">
+   					<b>Status verified</b>
+   				</div><br>
+   				<div class="product_price">
+   					<div class="price">
+              <div class="mptwo" data-value="399">
+              Actual price per tie: <del>₹499/-</del><br>
+              <strong>Discounted price:₹399/-</strong></div>
+   					</div><br><br><br><br>
+            <div class="adtc_button">
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART" data-value="399">ADD TO CART</button>
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="product_three">
+   				<div class="product_img">
+   					<img src="belt.jpg">
+   				</div>
+   				<div class="product_text">
+   					<a href="five_pnt_three six_pnt_two.html"><h4> Belt & Shoes by BS's</h4></a>
+   				</div>
+   				<div class="star_rating">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="black_star.png">
+   				</div>
+   				<div class="product_desc">
+   					<b>Status verified</b>
+   				</div><br>
+   				<div class="product_price">
+   					<div class="price">
+              <div class="mpthree" data-value="3999">
+              Actual price: <del>₹4,999/-</del><br>
+              <strong>Discounted price:₹3,999/-</strong></div>
+   					</div><br><br><br><br>
+            <div class="adtc_button" >
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART">ADD TO CART</button>
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="product_four">
+   				<div class="product_img">
+   					<img src="shoes.jpg">
+   				</div>
+   				<div class="product_text">
+   					<a href="five_pnt_four.html"><h4>Shoes by Stata</h4></a>
+   				</div>
+   				<div class="star_rating">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="red_star.png">
+   					<img src="black_star.png">
+   					<img src="black_star.png">
+   				</div>
+   				<div class="product_desc">
+   					<b>Status verified</b>
+   				</div><br>
+   				<div class="product_price">
+   					<div class="price">
+              <div class="mpfour" data-value="1999">
+              Actual price: <del>₹2,999/-</del><br>
+              <strong>Discounted price:₹1,999/-</strong></div>
+   					</div><br><br><br><br>
+            <div class="adtc_button">
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART">ADD TO CART</button>
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+
+
+
+    <div class="product">
+       <div class="product_container">
+         <div class="product_section_title">TRENDING AT STATUS</div>
+
+         <div class="product_one">
+           <div class="product_img">
+             <img src="hat-scarf.jpg">
+           </div>
+           <div class="product_text">
+             <a href="seven_pnt_four.html"><h4>Hat & Scarf by Tia's</h4></a>
+           </div>
+           <div class="star_rating">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="black_star.png">
+           </div>
+           <div class="product_desc">
+             <b>Status verified</b>
+           </div><br>
+           <div class="product_price">
+             <div class="price">
+               <div class="mpfive" data-value="599">
+               Actual price: <del>₹1,999/-</del><br>
+               <strong>Discounted price:₹599/-</strong></div>
+             </div><br><br><br><br>
+            <div class="adtc_button">
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART">ADD TO CART</button>
+             </div>
+           </div>
+         </div>
+
+         <div class="product_two">
+           <div class="product_img">
+             <img src="gown.jpg">
+           </div>
+           <div class="product_text">
+             <a href="two_pnt_one_two.html"><h4>Gown by Dobrial's</h4></a>
+           </div>
+           <div class="star_rating">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="black_star.png">
+           </div>
+           <div class="product_desc">
+             <b>Status verified</b>
+           </div><br>
+           <div class="product_price">
+             <div class="price">
+               <div class="mpsix" data-value="6999">
+               Actual price: <del>₹7,999/-</del><br>
+               <strong>Discounted price:₹6,999/-</strong></div>
+             </div><br><br><br><br>
+            <div class="adtc_button">
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART">ADD TO CART</button>
+             </div>
+           </div>
+         </div>
+
+         <div class="product_three">
+           <div class="product_img">
+             <img src="suit.jpg">
+           </div>
+           <div class="product_text">
+             <a href="one_pnt_three.html"><h4> Suit by Daiton's </h4></a>
+           </div>
+           <div class="star_rating">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="black_star.png">
+           </div>
+           <div class="product_desc">
+             <b>Status verified</b>
+           </div><br>
+           <div class="product_price">
+             <div class="price">
+               <div class="mpseven" data-value="5999">
+               Actual price: <del>₹6,999/-</del><br>
+               <strong>Discounted price:₹5,999/-</strong></div>
+             </div><br><br><br><br>
+            <div class="adtc_button">
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART">ADD TO CART</button>
+             </div>
+           </div>
+         </div>
+
+         <div class="product_four">
+           <div class="product_img">
+             <img src="silk-ties.jpg">
+           </div>
+           <div class="product_text">
+             <a href="six_pnt_five.html"><h4>Ties by Rata</h4></a>
+           </div>
+           <div class="star_rating">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="red_star.png">
+             <img src="black_star.png">
+           </div>
+           <div class="product_desc">
+             <b>Status verified</b>
+           </div><br>
+           <div class="product_price">
+             <div class="price">
+               <div class="mpeight" data-value="7999">
+               Actual price: <del>₹9,999/-</del><br>
+               <strong>Discounted price:₹7,999/-</strong></div>
+             </div><br><br><br><br>
+            <div class="adtc_button">
+              <button onclick="adtc()" type="button" name="adtc_btn"
+              value="ADD TO CART">ADD TO CART</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+     <div class="footer">
+       <div class="footer_container">
+
+         <div class="footer_clmn1">
+           <h4>Get To Know us</h4>
+              About Us
+         </div>
+
+         <div class="footer_clmn2">
+           <h4>Connect with Us</h4>
+              Facebook<br>
+              Twitter<br>
+              Instagram
+         </div>
+
+         <div class="footer_clmn3">
+           <h4>Need support? Leave us a message</h4>
+         </div>
+       </div>
+     </div>
+
+
+    </div>
+    <script type="text/javascript">
+     var i = 0;
+     function adtc() {
+       i++;
+       document.getElementById('cart').innerHTML= "Cart "+ i+" item/items";
+     }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Status </title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="topbar">
+           <div class="logo_icon">
+             <img src="c1logo.png" alt="Error">
+           </div>
+           <p class="store_name"> Status </p>
+           <div class="topbar_navigation">
+             <ul>
+               <li> <p id="cart"> Cart </p></li>
+               <li> <img src="cart.png" alt="Error"> </li>
+             </ul>
+           </div>
+      </div>
+      <div class="main_bar">
+        Shoes: Formal Shoes
+      </div>
+
+
+    <div class="container">
+
+      <div class="column1">
+        <div class="product">
+       		<div class="product_container">
+       			<div class="product_section_title"> Formal Shoes</div>
+
+       			<div class="product_one">
+       				<div class="product_img">
+       					<img src="fshoes.jpg">
+       				</div>
+       				<div class="product_text">
+       					<h4>Shoes by Stata</h4>
+       				</div>
+       				<div class="star_rating">
+       					<img src="red_star.png">
+       					<img src="red_star.png">
+       					<img src="red_star.png">
+       					<img src="red_star.png">
+       					<img src="black_star.png">
+       				</div>
+       				<div class="product_desc">
+       					<b>Status verified</b>
+       				</div><br>
+       				<div class="product_price">
+       					<div class="price">
+       						Actual price: <del>₹4,999/-</del><br>
+                  <strong>Discounted price:3,999/- </strong>
+       					</div><br><br><br><br>
+                <div class="adtc_button">
+                  <button onclick="adtc()" type="button" name="adtc_btn"
+                  value="ADD TO CART">ADD TO CART</button>
+       					</div>
+       				</div>
+       			</div>
+            <div class="column2">
+
+              Material: Leather<br><br>
+              Lifestyle: Business<br><br>
+              Closure Type: Slip On<br><br>
+              <strong>Care Instructions: Clean your shoes with leather cleaner<br>
+              or leather shampoo, and use a good quality brush to remove<br>
+              loose surface dirt; if your shoes are wet after cleaning,<br>
+              let them air-dry before your proceed with the next step;<br>
+              dry shoes in room temperature only and<br>
+              never expose them to the sun,heat from the sun will cause<br>
+              the leather to shrink, wrinkle, harden, dry, and crack.</strong>
+
+            </div>
+       		</div>
+       	</div>
+      </div>
+
+      </div>
+    </div>
+
+    </div>
+    <script type="text/javascript">
+     var i = 0;
+     function adtc() {
+       i++;
+       document.getElementById('cart').innerHTML= "Cart "+ i+" item/items";
+     }
+    </script>
+  </body>
+</html>
