@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Status </title>
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="topbar">
+           <div class="logo_icon">
+             <img src="images/c1logo.png" alt="Error">
+           </div>
+           <p class="store_name"> Status </p>
+           <div class="topbar_navigation">
+             <ul>
+               <li> <p id="cart"> Cart </p></li>
+               <li> <img src="images/cart.png" alt="Error"> </li>
+             </ul>
+           </div>
+      </div>
+      <div class="main_bar">
+        Shoes: Sports Shoes
+      </div>
+
+
+    <div class="container">
+
+      <div class="column1">
+        <div class="product">
+       		<div class="product_container">
+       			<div class="product_section_title"> Sports Shoes</div>
+
+       			<div class="product_one">
+       				<div class="product_img">
+       					<img src="images/sshoes.jpg">
+       				</div>
+       				<div class="product_text">
+       					<h4>Sports Shoes by Dyntra</h4>
+       				</div>
+       				<div class="star_rating">
+       					<img src="images/red_star.png">
+       					<img src="images/red_star.png">
+       					<img src="images/red_star.png">
+       					<img src="images/red_star.png">
+       					<img src="images/black_star.png">
+       				</div>
+       				<div class="product_desc">
+       					<b>Status verified</b>
+       				</div><br>
+       				<div class="product_price">
+       					<div class="price">
+       						Actual price: <del>₹1,999/-</del><br>
+                  <strong>Discounted price:1,899/- </strong>
+       					</div><br><br><br><br>
+                <div class="adtc_button">
+                  <button onclick="adtc()" type="button" name="adtc_btn"
+                  value="ADD TO CART">ADD TO CART</button>
+       					</div>
+       				</div>
+       			</div>
+            <div class="column2">
+              Slip On with Hook & Loop fastner makes it easy to wear<br><br>
+              and offers customised fit according to foot-size.<br><br>
+              Light Weight Sole offers all day comfort<br><br>
+              Eye catching shoes designs offers fresh look.<br><br>
+              High quality upper mesh material makes the shoe breathable,<br><br>
+              hence pefect for warm weather condition.<br><br>
+              Easy To clean : Dust any dry dirt from the surface<br><br>
+              using a clean wet cloth.
+
+
+            </div>
+       		</div>
+       	</div>
+      </div>
+
+      </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+     var i = 0;
+     function adtc() {
+       i++;
+       document.getElementById('cart').innerHTML= "Cart "+ i+" item/items";
+     }
+    </script>
+  </body>
+</html>
